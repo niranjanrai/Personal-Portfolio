@@ -276,6 +276,7 @@ body {
 }
 .project-img {
   width: 40rem;
+  height: 25rem;
   transition: opacity 0.3s;
 }
 .project:hover .project-img {
