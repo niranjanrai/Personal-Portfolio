@@ -29,9 +29,25 @@ body {
   color: #333;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
   border-bottom: 0.3rem solid #333;
   text-shadow: 0.2rem 0.2rem 0.5rem #555;
+}
+.section-2-div {
+  background-color: rgb(241, 237, 237);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0rem;
+  margin: 5rem 0rem;
+}
+.section-2-para {
+  font-size: 2rem;
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 80rem;
+  font-family: inherit;
 }
 
 /* End of Reset and Common Styles */
@@ -231,6 +247,7 @@ body {
 .project-wrapper {
   width: 80%;
   flex-wrap: wrap;
+  margin-bottom: 3rem;
 }
 
 .project {
@@ -279,6 +296,7 @@ body {
   width: 40rem;
   height: 25rem;
   transition: opacity 0.3s;
+  object-fit: contain;
 }
 .project:hover .project-img {
   opacity: 0.2;
@@ -421,7 +439,7 @@ body {
   }
 
   .section-2-heading {
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
   }
 
   .progress-bar {
