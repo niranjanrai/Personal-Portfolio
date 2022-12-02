@@ -58,7 +58,7 @@ body {
 }
 .personal-info p {
   font-family: inherit;
-  color: #e41c6f;
+  /* color: #e41c6f; */
   font-size: 3rem;
   font-weight: 500;
   margin: 3rem 0;
